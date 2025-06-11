@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: anahid-crafts-bot
+    runtime: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python bot.py"
+    autoDeploy: true
